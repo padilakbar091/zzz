@@ -1,0 +1,10 @@
+void main() {
+  // Mendefinisikan list
+  List<String> fruits = ['Nanas', 'Semangka', 'Apel', 'Pepaya', 'Jeruk'];
+
+  // Menggunakan FOR IN LOOP untuk mencetak elemen dari list
+  print('Daftar Buah:');
+  for (var fruit in fruits) {
+    print(fruit);
+  }
+}
