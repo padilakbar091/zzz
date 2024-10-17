@@ -1,0 +1,12 @@
+// Mendefinisikan fungsi dengan parameter bernama
+void greet({String firstName = '', String lastName = ''}) {
+  // Menampilkan salam menggunakan parameter
+  print('Hello, $firstName $lastName!');
+}
+
+void main() {
+  // Memanggil fungsi greet dengan parameter bernama
+  greet(firstName: 'Fadhil', lastName: 'Akbar'); // Menyediakan nama depan dan nama belakang
+  greet(lastName: 'Akbar'); // Hanya menyediakan nama belakang
+  greet(); // Memanggil fungsi tanpa argumen
+}
