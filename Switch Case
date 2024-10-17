@@ -1,0 +1,24 @@
+void main() {
+  // Mendefinisikan nilai
+  double finalScore = 85.0;
+
+  // Menggunakan SWITCH CASE untuk menentukan kelulusan
+  String result;
+
+  switch (finalScore ~/ 10) {
+    case 10:
+    case 9:
+      result = 'Fadhil Akbar LULUS dengan nilai A!';
+      break;
+    case 8:
+      result = 'Fadhil Akbar LULUS dengan nilai B!';
+      break;
+    case 7:
+      result = 'Fadhil Akbar LULUS dengan nilai C!';
+      break;
+    default:
+      result = 'Fadhil Akbar TIDAK LULUS.';
+  }
+
+  print(result);
+}
