@@ -1,0 +1,10 @@
+void main() {
+  dynamic FadhilData = 30;  // Memulai dengan nilai integer
+  print('Nilai awal Fadhil: $fadhilData, tipe: ${fadhilData.runtimeType}');
+
+  fadhilData = "Halo, saya Fadhil!";  // Mengubah menjadi string
+  print('Pesan baru Fadhil: $fadhilData, tipe: ${fadhilData.runtimeType}');
+
+  fadhilData = [1, 2, 3, "empat"];  // Mengubah menjadi list
+  print('List baru Fadhil: $fadhilData, tipe: ${fadhilData.runtimeType}');
+}
